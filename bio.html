@@ -4,37 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bio - [Your Name]</title>
+  <title>Bio - Imogen Chesworth-Bell</title>
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
 
 <body>
   <header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="bio.html" aria-current="page">Bio</a>
-        </li>
-        <li>
-          <a href="experience.html">Experience</a>
-        </li>
-        <li>
-          <a href="portfolio.html">Portfolio</a>
-        </li>
+    <nav class="navbar">
+      <a href="bio.html" class="logo">
+        <img src="website-logo.png" alt="logo"></a>
+      <ul class="nav-links">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="bio.html" aria-current="page">Bio</a></li>
+        <li class="nav-item"><a href="experience.html">Experience</a></li>
+        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1>Bio</h1>
+    <h1>About me</h1>
+    <div id="photo-of-me-bio">
+      <img id="profile-photo" src="mephoto.jpg" alt="photo of me" width="250rem" height="250rem">
+      <p class="moveover">
+        Hi everyone! I am an aspiring developer at Barclays. Welcome to my website.
+      </p>
+    </div>
+    <h2> Here is a list of some colours that I like:</h2>
+      <ol>
+        <li>pink</li>
+        <li>blue</li>
+        <li>yellow</li>
+        <li>green</li>
+        <li>orange</li>
+      </ol>
+    <h3> What do these colours look like? ...</h3>
+    <div class="colourpics">
+      <img class="colours" src="pink.png" alt="pink"></img>
+      <img class="colours"src="blue.jpeg" alt="blue"></img>
+      <img class="colours" src="yellow.jpeg" alt="yellow"></img>
+      <img class="colours" src="green.jpeg" alt="green"></img>
+      <img class="colours" src="orange.jpeg" alt="orange"></img>
+    </div>
   </main>
 
   <footer>
-    <p>Copyright &copy; 2024 [Your Name]</p>
+    <p>Copyright &copy; 2024 Imogen Chesworth-Bell</p>
   </footer>
 </body>
 

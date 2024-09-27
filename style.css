@@ -7,6 +7,8 @@ body {
   line-height: 1.5;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url(background.jpeg);
+  background-size: cover;
 }
 
 h1,
@@ -17,18 +19,108 @@ h5,
 h6 {
   line-height: 1.1;
   text-wrap: balance;
+  text-align: center
 }
+
+
 
 img {
   max-width: 100%;
 }
+/* NAV BAR STUFF */
 
+/* LOGO STUFF */
+.logo {
+  display: inline-block;
+}
+.logo img{
+  width: 15%;
+  vertical-align: middle;
+}
+.navbar {
+  width: 100vw;
+  height: 6vw;
+  background-color: #e6fffe;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item:hover {
+  background-color: rgb(255, 184, 215);
+}
+.nav-item:hover a {
+  color: white;
+}
 nav a {
   text-decoration: none;
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+/* PROFILE PHOTO */
+#photo-of-me{
+  display: flex;
+  align-items: center; /* Centre items vertically */
+  justify-content: center; /* Centre items horizontally */
+  padding: 20px;
+}
+.mebutton{
+  background: none;
+  border: none;
+}
+.mebutton:hover {
+  box-shadow: 0 0 20px white, 0 0 40px white; /* White glow effect */
+}
+
+#profile-photo {
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 20px; /* Space between the image and the text */
+  border: 5px solid pink;
+  box-shadow: 0 0 15px pink, 0 0 30px pink;
+}
+
+#photo-of-me-bio{
+  display: flex;
+  align-items: center; /* Centre items vertically */
+  padding: 20px;
+}
+.moveover {
+  padding-left: 25rem; 
+  flex: 1;
+  text-align: left;
+}
+/* centre Text*/
+.centretext{
+  text-align: center;
+}
+
+/* About me colours section*/
+.colourpics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.colours{
+  width: 100%;
+  object-fit: cover;
+  padding: 1em
 }
 
 /* Can be used to style the active navigation link. */
