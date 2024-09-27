@@ -23,7 +23,6 @@ h6 {
 }
 
 
-
 img {
   max-width: 100%;
 }
@@ -75,6 +74,15 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.footer{
+  background-color: #e6fffe;
+  padding: 10px; /* Padding for footer */
+  text-align: center;
+  
+  width: 100vw;
+  bottom: 0;
+}
+
 /* PROFILE PHOTO */
 #photo-of-me{
   display: flex;
@@ -103,7 +111,7 @@ nav a:hover {
   padding: 20px;
 }
 .moveover {
-  padding-left: 25rem; 
+  padding-left:10dvh; 
   flex: 1;
   text-align: left;
 }
@@ -123,7 +131,18 @@ nav a:hover {
   padding: 1em
 }
 
+#inventory {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+.portfolio-pics{
+  flex: 1 1 calc(33.33% - 1.25rem);
+  box-sizing: border-box;
+}
+
 /* Can be used to style the active navigation link. */
 [aria-current="page"] {
   text-decoration: underline;
+  background-color: white ;
 }
