@@ -1,5 +1,6 @@
 # Personal Webpage Template
 
-1. Click the green "Use this template" button.
-2. Clone your generated repository.
-3. Find and replace all instances of "[Your Name]" with your name.
+## How To Run:
+
+- Click go live at the bottom of the vscode screen
+
